@@ -1,0 +1,5 @@
+API : 2e9e0c1b77b335991d43cd464cc2b9835ab65940
+
+https://api.nomics.com/v1/currencies/ticker?key=2e9e0c1b77b335991d43cd464cc2b9835ab65940&ids=BTC,ETH,AAVE&interval=1d,30d,365d
+
+https://api.nomics.com/v1/currencies?key=2e9e0c1b77b335991d43cd464cc2b9835ab65940&ids=BTC,ETH,AAVE&attributes=id,name,logo_url,description,reddit_url
