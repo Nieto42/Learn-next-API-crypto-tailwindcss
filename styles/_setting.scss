@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+$font-1: 'Nunito', sans-serif;
+$font-2: 'Open Sans', sans-serif;
+
+$color-1: #DBEAFE; // Primary  Orange
+$color-2: #93C5FD; // Scondary purple
+$color-3: #89898A; //  Red
+$color-4:#1CAB41; // Green
+$color-bg: #EFF6FF; // Yellow
+$white: #ddd;
+$black: #333;
+
+$border: solid 2px $color-2;
+$borderRadius: 8px;
+$shadow: 0px 6px 8px -6px rgba(24, 39, 75, 0.12), 0px 8px 16px -6px rgba(24, 39, 75, 0.08);;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 1rem auto;
+    max-width: 1200px;
+    font-family: $font-1;
+    color: $black;
+  }
+
+  button {
+    cursor: pointer;
+
+    padding: 1.3rem;
+    margin: .7rem;
+    background: $color-1;
+    border-radius: $borderRadius;
+    border-color: $color-1;
+    font-weight: bold;
+    
+
+    &:hover {
+        box-shadow: $shadow;
+    }
+  }
+
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+  }
+  a:visited {
+    color:$black;
+  }

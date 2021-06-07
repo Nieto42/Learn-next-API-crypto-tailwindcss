@@ -1,0 +1,40 @@
+.currency{
+    background: $color-1;
+    text-align: center;
+    border: $border;
+    border-radius: $borderRadius;
+    padding: 1rem;
+
+    &:hover{
+        box-shadow: $shadow;
+    }
+
+    .logo{   
+    img{
+        width: 50px;
+        height: 50px;
+        ;
+        }
+}
+
+    h2{
+       
+    }
+   
+    .description{
+        padding: 1rem
+    }
+
+    .url{
+        
+        a{
+            color: $color-2 ;
+
+            &:hover{
+                color: $color-3;
+            }
+        }
+    }
+
+ 
+}

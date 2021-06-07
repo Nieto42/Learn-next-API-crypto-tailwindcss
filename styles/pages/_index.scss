@@ -1,0 +1,82 @@
+.cyptoContainer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    
+    .priceChange{
+        font-weight: 700;
+    }
+
+   .List{
+      
+    background: $color-1;
+    border-radius: $borderRadius;
+    border: $border;
+    padding: 1rem;
+    margin: 1rem;
+  
+       .linkList{
+
+       text-align: center;
+        .imgList{
+            
+            .img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        h2{
+            padding: 2px;        
+        }
+        h3{
+            padding: 2px;
+        }
+        p{
+            padding: 2px;
+            text-align: justify;
+          
+        }
+       }
+   }
+   .more{
+    width: 100%;
+    height: 3rem;
+    border-color: $white;
+    border: $border;
+    border-radius: $borderRadius;
+}
+}
+
+.more{
+    border: $border;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    // width: 50px;
+    // height: 50px;
+    // background: $white;
+
+}
+
+.modal{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    background: $color-2;
+    padding: 10px;
+    margin: 20px 20px;
+
+}
+@media (max-width: 800px){
+
+    .cyptoContainer {
+        flex-direction: column;
+    }
+}
